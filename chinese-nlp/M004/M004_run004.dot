@@ -1,0 +1,15 @@
+digraph topic_tree {
+node [shape=plaintext, fontname=Helvetica];
+edge [style=solid, arrowhead=empty, arrowsize=1];
+graph [mindist=0];
+0 [fontsize=18, label="气候\n变化\n会议\n国家\n排放\n气体\n一个\n到\n谈判\n温室"];
+-1 -> 0;
+12 [fontsize=14, label="气候\n变化\n会议\n国家\n排放\n气体\n一个\n到\n谈判\n温室"];
+0 -> 12;
+13 [fontsize=12, label="变化\n会议\n国家\n排放\n气体\n一个\n到\n温室\n美国\n全球"];
+12 -> 13;
+97716 [fontsize=12, label="变化\n进行\n12月\n协议\n代表\n世界\n会议\n2007年\n时候\n建议"];
+12 -> 97716;
+97836 [fontsize=12, label="进行\n碳\n机构\n改动\n水资源\n暂停\n变化\n排放\n谈判\n巴厘岛"];
+12 -> 97836;
+}

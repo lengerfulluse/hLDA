@@ -1,0 +1,23 @@
+digraph topic_tree {
+node [shape=plaintext, fontname=Helvetica];
+edge [style=solid, arrowhead=empty, arrowsize=1];
+graph [mindist=0];
+0 [fontsize=18, label="谈判\n变化\n到\n巴厘岛\n国家\n会议\n能\n排放量\n框架\n工作"];
+-1 -> 0;
+1 [fontsize=14, label="排放量\n政府\n结论\n达成\n12月\n计划\n去\n变\n暖\n减少"];
+0 -> 1;
+2 [fontsize=12, label="会议\n变化\n国家\n温室\n协议\n达成\n气体\n巴厘\n接\n到"];
+1 -> 2;
+5 [fontsize=12, label="路线图\n表示\n中国\n欧盟\n公约\n2007年\n参加\n全球\n解决\n部分"];
+1 -> 5;
+11 [fontsize=12, label="会议\n变化\n工业化\n文件\n日本\n早些\n德波尔\n早\n次\n项"];
+1 -> 11;
+25 [fontsize=14, label="协议\n减少\n间\n处理\n温室\n暖\n同意\n组织\n举行\n专门"];
+0 -> 25;
+26 [fontsize=12, label="排放\n一个\n美国\n气体\n联合国\n问题\n全球\n目标\n森林\n召开"];
+25 -> 26;
+3793 [fontsize=14, label="参加\n2010年\n国家\n温室\n接\n工业化\n取得\n早\n机构\n引发"];
+0 -> 3793;
+3874 [fontsize=12, label="进行\n代表\n建议\n12月\n发布\n世界\n声明\n碳\n机构\n很快"];
+3793 -> 3874;
+}

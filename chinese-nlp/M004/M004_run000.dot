@@ -1,0 +1,27 @@
+digraph topic_tree {
+node [shape=plaintext, fontname=Helvetica];
+edge [style=solid, arrowhead=empty, arrowsize=1];
+graph [mindist=0];
+0 [fontsize=18, label="谈判\n到\n会议\n温室\n全球\n变化\n目标\n巴厘岛\n国家\n协议"];
+-1 -> 0;
+5 [fontsize=14, label="降低\n主席\n做出\n到\n专门\n水平\n巴厘岛\n2012年\n产生\n看到"];
+0 -> 5;
+6 [fontsize=12, label="排放\n一个\n气体\n美国\n联合国\n问题\n召开\n森林\n委员会\n目标"];
+5 -> 6;
+1 [fontsize=14, label="结论\n大会\n讨论\n190\n会议\n巴厘岛\n排放量\n接\n进展\n科学家"];
+0 -> 1;
+24 [fontsize=12, label="变化\n国家\n达成\n会议\n协议\n气体\n温室\n做\n部长\n报告"];
+1 -> 24;
+44 [fontsize=14, label="声明\n排放\n欧盟\n序言\n排放量\n表示\n得到\n12月\n同意\n组织"];
+0 -> 44;
+55 [fontsize=12, label="中国\n参加\n国家\n2007年\n指出\n路线图\n解决\n分歧\n努力\n欧盟"];
+44 -> 55;
+322 [fontsize=14, label="代表\n星期一\n会议\n目标\n意见\n早些\n基文\n二氧化碳\n里\n到期"];
+0 -> 322;
+350 [fontsize=12, label="变化\n会议\n文件\n工业化\n森林\n日本\n得到\n早些\n德波尔\n去"];
+322 -> 350;
+9769 [fontsize=14, label="碳\n改动\n暂停\n工业化\n建议\n二氧化碳\n内容\n产生\n提到\n清楚"];
+0 -> 9769;
+9770 [fontsize=12, label="进行\n机构\n世界\n发布\n很快\n水资源\n变化\n排放\n早\n保持"];
+9769 -> 9770;
+}

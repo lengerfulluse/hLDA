@@ -1,0 +1,15 @@
+digraph topic_tree {
+node [shape=plaintext, fontname=Helvetica];
+edge [style=solid, arrowhead=empty, arrowsize=1];
+graph [mindist=0];
+0 [fontsize=18, label="赚取\n组成\n气候\n变化\n会议\n国家\n排放\n气体\n一个\n到"];
+-1 -> 0;
+12 [fontsize=14, label="气候\n变化\n会议\n国家\n排放\n气体\n一个\n到\n谈判\n温室"];
+0 -> 12;
+89 [fontsize=12, label="变化\n国家\n排放\n会议\n气体\n一个\n美国\n温室\n联合国\n到"];
+12 -> 89;
+1 [fontsize=14, label="气候\n变化\n会议\n国家\n排放\n气体\n一个\n到\n谈判\n温室"];
+0 -> 1;
+37 [fontsize=12, label="变化\n会议\n进行\n工业化\n代表\n文件\n早些\n到\n全球\n日本"];
+1 -> 37;
+}
